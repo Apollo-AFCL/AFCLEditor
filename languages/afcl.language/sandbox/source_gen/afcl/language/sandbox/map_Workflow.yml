@@ -1,0 +1,49 @@
+---
+name: "TestWorkflow"
+dataIns:
+- name: "input1"
+  type: "boolean"
+  source: false
+- name: "input2"
+  type: "string"
+  source: "test"
+- name: "IN3"
+  type: "number"
+  source: 3.5
+dataOuts:
+- name: "finalResult"
+  type: "string"
+  source: "exampleFunction2.out"
+- name: "tet"
+  type: "number"
+  source: "exampleFunction1.out"
+workflowBody:
+- name: "exampleFunction1"
+  type: "exampleFunction1"
+  dataIns:
+  - name: "input"
+    type: "string"
+    source: "test"
+  - name: "in1"
+    type: "string"
+    source: "test"
+  dataOuts:
+  - name: "out"
+    type: "number"
+- name: "exampleFunction2"
+  type: "exampleFunction2"
+  dataIns:
+  - name: "in1"
+    type: "number"
+    source: 3
+  - name: "in2"
+    type: "number"
+    source: "exampleFunction1.out"
+  - name: "in3"
+    type: "string"
+    source: "TestWorkflow.input2"
+  - name: "sqwreq"
+    type: "error"
+  dataOuts:
+  - name: "out"
+    type: "string"
