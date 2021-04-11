@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/afcl.language/afcl.language.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/afcl.language/sandbox/afcl.language.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/libs/mps-open-source/languages/Json/Json.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/libs/mps-open-source/solutions/runtime.lib/runtime.lib.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/AFCLEditor.build/AFCLEditor.build.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
