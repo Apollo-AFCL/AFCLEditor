@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="4pjl90570ixi15o4ds3n3agm7cdcok5">
-  <files names="TypesystemDescriptor.java:check_FunctionBlock_NonTypesystemRule.java:check_InputBlock_NonTypesystemRule.java:check_OutputBlock_NonTypesystemRule.java:check_ResultBlock_NonTypesystemRule.java:typeof_BooleanLiteral_InferenceRule.java:typeof_NumberLiteral_InferenceRule.java:typeof_StringLiteral_InferenceRule.java:typeof_VariableReference_InferenceRule.java:typeof_Variable_InferenceRule.java" />
-</product>
-

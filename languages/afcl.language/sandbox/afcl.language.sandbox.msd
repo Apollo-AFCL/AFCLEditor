@@ -13,7 +13,7 @@
   <sourcePath />
   <languageVersions>
     <language slang="l:8382542b-a045-4f73-951b-02d75ee252bf:Json" version="0" />
-    <language slang="l:ec3060ee-1f23-4e47-af80-3618736238b3:afcl2.language" version="0" />
+    <language slang="l:ec3060ee-1f23-4e47-af80-3618736238b3:afcl.language" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
   </languageVersions>
   <dependencyVersions>
