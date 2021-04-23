@@ -29,11 +29,10 @@ An overview about the project structure is presented [here](docs/project_structu
     - [x] Array
 - Compound functions:
     - [x] If-then-else block
-    - [ ] Switch block
     - [ ] For block
     - [ ] While block
     - [x] ParallelFor block
-- [ ] Properties and Constraints
+- [x] Properties and Constraints
 - [x] Building IDE
 - [x] Export to YAML
 

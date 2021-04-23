@@ -42,25 +42,14 @@
       <concept id="8811045998705255" name="afcl.language.structure.LoopOutputBlock" flags="ng" index="22LnvY">
         <child id="8811045998705256" name="outputs" index="22LnvL" />
       </concept>
-      <concept id="8811045999574256" name="afcl.language.structure.ReplicateModifier" flags="ng" index="22Y35D" />
       <concept id="8811045999383196" name="afcl.language.structure.LoopDataInput" flags="ng" index="22YXW5">
         <child id="8811045999574326" name="modifiers" index="22Y32J" />
       </concept>
       <concept id="8811045999383164" name="afcl.language.structure.LoopInputBlock" flags="ng" index="22YXZ_">
         <child id="8811045999383165" name="inputs" index="22YXZ$" />
       </concept>
-      <concept id="8811046002293489" name="afcl.language.structure.SplitModifier" flags="ng" index="233VtC">
-        <child id="8811046006423311" name="value" index="23kbam" />
-      </concept>
-      <concept id="8811046002293488" name="afcl.language.structure.BlockModifier" flags="ng" index="233VtD">
-        <child id="8811046009012544" name="size" index="23qcNp" />
-        <child id="8811046009012546" name="overlap" index="23qcNr" />
-      </concept>
-      <concept id="8811046009533253" name="afcl.language.structure.IntegerLiteral" flags="ng" index="23o3Vs">
-        <property id="8811046009533254" name="value" index="23o3Vv" />
-      </concept>
-      <concept id="8811046007721251" name="afcl.language.structure.ReplicateTimesModifier" flags="ng" index="23v82U">
-        <child id="8811046007721254" name="value" index="23v82Z" />
+      <concept id="8811046002293485" name="afcl.language.structure.ElementIndexModifier" flags="ng" index="233VtO">
+        <property id="7690409310538530495" name="value" index="3mIaKU" />
       </concept>
       <concept id="5541022465992594099" name="afcl.language.structure.IfStatement" flags="ng" index="d5Nww">
         <child id="5541022465992594102" name="condition" index="d5Nw_" />
@@ -76,6 +65,9 @@
         <reference id="5541022465995523163" name="fallbackScope" index="eYIV8" />
         <reference id="5541022465995523167" name="fallbackReference" index="eYIVc" />
         <reference id="5541022465995523164" name="ifReference" index="eYIVf" />
+      </concept>
+      <concept id="1564814548518510922" name="afcl.language.structure.ArrayLiteral" flags="ng" index="2iu7v0">
+        <child id="1564814548518511370" name="content" index="2iu7m0" />
       </concept>
       <concept id="1564814548518336754" name="afcl.language.structure.ForEachStatement" flags="ng" index="2iuMTS">
         <child id="8811045998705441" name="input" index="22LnqS" />
@@ -125,6 +117,17 @@
         <property role="TrG5h" value="IN3" />
         <node concept="01M8v" id="2ryr8vOEhwF" role="02Hm3">
           <property role="01M8j" value="3.5" />
+        </node>
+      </node>
+      <node concept="3j0p_I" id="6ETOCmW27mY" role="3j0vfE">
+        <property role="TrG5h" value="input3" />
+        <node concept="2iu7v0" id="6ETOCmW27nh" role="02Hm3">
+          <node concept="01M8v" id="6ETOCmW27nw" role="2iu7m0">
+            <property role="01M8j" value="1" />
+          </node>
+          <node concept="01M8v" id="6ETOCmW27nN" role="2iu7m0">
+            <property role="01M8j" value="2" />
+          </node>
         </node>
       </node>
     </node>
@@ -199,24 +202,15 @@
               <ref role="0Z6TC" node="391VEBGJFQL" resolve="TestWorkflow" />
               <ref role="3uLpB4" node="391VEBGJFXe" resolve="input1" />
             </node>
-            <node concept="233VtD" id="7xBDLuIBWJS" role="22Y32J">
-              <node concept="23o3Vs" id="7xBDLuIBWJU" role="23qcNp">
-                <property role="23o3Vv" value="1" />
-              </node>
-              <node concept="23o3Vs" id="7xBDLuIBWJW" role="23qcNr">
-                <property role="23o3Vv" value="1" />
-              </node>
+          </node>
+          <node concept="22YXW5" id="6ETOCmW27nY" role="22YXZ$">
+            <property role="TrG5h" value="input2" />
+            <node concept="0Z6TF" id="6ETOCmW27oh" role="02Hm3">
+              <ref role="0Z6TC" node="391VEBGJFQL" resolve="TestWorkflow" />
+              <ref role="3uLpB4" node="6ETOCmW27mY" resolve="input3" />
             </node>
-            <node concept="22Y35D" id="7xBDLuIHGme" role="22Y32J" />
-            <node concept="23v82U" id="7xBDLuIHGnc" role="22Y32J">
-              <node concept="23o3Vs" id="7xBDLuIHGne" role="23v82Z">
-                <property role="23o3Vv" value="2" />
-              </node>
-            </node>
-            <node concept="233VtC" id="7xBDLuIHGqi" role="22Y32J">
-              <node concept="23o3Vs" id="7xBDLuIHGqk" role="23kbam">
-                <property role="23o3Vv" value="3" />
-              </node>
+            <node concept="233VtO" id="6ETOCmWgmIL" role="22Y32J">
+              <property role="3mIaKU" value="1,3::22" />
             </node>
           </node>
         </node>
@@ -231,7 +225,7 @@
                 <property role="TrG5h" value="input" />
                 <node concept="0Z6TF" id="7xBDLuItn40" role="02Hm3">
                   <ref role="0Z6TC" node="7xBDLuItn2W" resolve="forEachStatement" />
-                  <ref role="3uLpB4" node="7xBDLuItn3C" resolve="input" />
+                  <ref role="3uLpB4" node="6ETOCmW27nY" resolve="input2" />
                 </node>
               </node>
             </node>
