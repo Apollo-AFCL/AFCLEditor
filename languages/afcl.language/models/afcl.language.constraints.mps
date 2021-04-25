@@ -11,6 +11,7 @@
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
     <use id="3ad5badc-1d9c-461c-b7b1-fa2fcd0a0ae7" name="jetbrains.mps.lang.context" version="0" />
     <use id="ad93155d-79b2-4759-b10c-55123e763903" name="jetbrains.mps.lang.messages" version="0" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
@@ -86,6 +87,8 @@
       </concept>
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
+      <concept id="6702802731807351367" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="9S07l" />
+      <concept id="1202989658459" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" flags="nn" index="nLn13" />
       <concept id="8966504967485224688" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_contextNode" flags="nn" index="2rP1CM" />
       <concept id="1147467115080" name="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" flags="ng" index="EnEH3">
         <reference id="1147467295099" name="applicableProperty" index="EomxK" />
@@ -98,6 +101,7 @@
       </concept>
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
+        <child id="6702802731807737306" name="canBeChild" index="9Vyp8" />
         <child id="1213098023997" name="property" index="1MhHOB" />
         <child id="1213100494875" name="referent" index="1Mr941" />
       </concept>
@@ -106,6 +110,9 @@
         <child id="1148687345559" name="searchScopeFactory" index="1N6uqs" />
       </concept>
       <concept id="1153138554286" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue" flags="nn" index="1Wqviy" />
+    </language>
+    <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
+      <concept id="6359146168314178663" name="jetbrains.mps.lang.typesystem.structure.Node_InferTypeOperation" flags="nn" index="HpLno" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -1054,6 +1061,53 @@
                 <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
                 <node concept="Xl_RD" id="vjpA3vRrz" role="37wK5m">
                   <property role="Xl_RC" value="[0-9]+" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="4uYCyPAvXNe">
+    <property role="3GE5qa" value="data.modifiers" />
+    <ref role="1M2myG" to="u7e4:vjpA34fFK" resolve="BlockModifier" />
+  </node>
+  <node concept="1M2fIO" id="4uYCyPAzsSG">
+    <property role="3GE5qa" value="data.modifiers" />
+    <ref role="1M2myG" to="u7e4:4uYCyPAzs4D" resolve="IArrayDataModifer" />
+    <node concept="9S07l" id="4uYCyPAzsSH" role="9Vyp8">
+      <node concept="3clFbS" id="4uYCyPAzsSI" role="2VODD2">
+        <node concept="3cpWs6" id="4uYCyPAzsWB" role="3cqZAp">
+          <node concept="2OqwBi" id="4uYCyPAztj1" role="3cqZAk">
+            <node concept="2OqwBi" id="4uYCyPAzt66" role="2Oq$k0">
+              <node concept="nLn13" id="4uYCyPAzsX7" role="2Oq$k0" />
+              <node concept="HpLno" id="4uYCyPAztcU" role="2OqNvi" />
+            </node>
+            <node concept="1mIQ4w" id="4uYCyPAztkl" role="2OqNvi">
+              <node concept="chp4Y" id="4uYCyPAztpq" role="cj9EA">
+                <ref role="cht4Q" to="u7e4:1mRlCE7VkEI" resolve="ArrayType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="6ETOCmW28Zp">
+    <property role="3GE5qa" value="data.modifiers" />
+    <ref role="1M2myG" to="u7e4:vjpA34fFH" resolve="ElementIndexModifier" />
+    <node concept="EnEH3" id="6ETOCmW28Zq" role="1MhHOB">
+      <ref role="EomxK" to="u7e4:6ETOCmW0nUZ" resolve="value" />
+      <node concept="QB0g5" id="6ETOCmW291J" role="QCWH9">
+        <node concept="3clFbS" id="6ETOCmW291K" role="2VODD2">
+          <node concept="3clFbF" id="6ETOCmW296r" role="3cqZAp">
+            <node concept="2OqwBi" id="6ETOCmW29wn" role="3clFbG">
+              <node concept="1Wqviy" id="6ETOCmW296q" role="2Oq$k0" />
+              <node concept="liA8E" id="6ETOCmW29J6" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
+                <node concept="Xl_RD" id="6ETOCmW29K8" role="37wK5m">
+                  <property role="Xl_RC" value="(^(([0-9]+(,[0-9]+)*)?(:([0-9]+(,[0-9]+)*)?){0,2}))" />
                 </node>
               </node>
             </node>

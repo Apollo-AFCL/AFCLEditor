@@ -629,8 +629,13 @@
     <property role="TrG5h" value="ElementIndexModifier" />
     <property role="34LRSv" value="element-index" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="vjpA34fFI" role="PzmwI">
-      <ref role="PrY4T" node="vjpA2TRNJ" resolve="IDataModifier" />
+    <node concept="PrWs8" id="4uYCyPAzts7" role="PzmwI">
+      <ref role="PrY4T" node="4uYCyPAzs4D" resolve="IArrayDataModifer" />
+    </node>
+    <node concept="1TJgyi" id="6ETOCmW0nUZ" role="1TKVEl">
+      <property role="IQ2nx" value="7690409310538530495" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="vjpA34fFK">
@@ -639,8 +644,8 @@
     <property role="TrG5h" value="BlockModifier" />
     <property role="34LRSv" value="block" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="vjpA35cIR" role="PzmwI">
-      <ref role="PrY4T" node="vjpA2TRNJ" resolve="IDataModifier" />
+    <node concept="PrWs8" id="4uYCyPAzts4" role="PzmwI">
+      <ref role="PrY4T" node="4uYCyPAzs4D" resolve="IArrayDataModifer" />
     </node>
     <node concept="1TJgyj" id="vjpA3tS50" role="1TKVEi">
       <property role="IQ2ns" value="8811046009012544" />
@@ -663,8 +668,8 @@
     <property role="TrG5h" value="SplitModifier" />
     <property role="34LRSv" value="split" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="vjpA34fFM" role="PzmwI">
-      <ref role="PrY4T" node="vjpA2TRNJ" resolve="IDataModifier" />
+    <node concept="PrWs8" id="4uYCyPAztsa" role="PzmwI">
+      <ref role="PrY4T" node="4uYCyPAzs4D" resolve="IArrayDataModifer" />
     </node>
     <node concept="1TJgyj" id="vjpA3jZWf" role="1TKVEi">
       <property role="IQ2ns" value="8811046006423311" />
@@ -722,6 +727,26 @@
       <property role="20kJfa" value="rhs" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3d_E5CNnHe1" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3NpMTjtTEx1">
+    <property role="EcuMT" value="4384759552460367937" />
+    <property role="3GE5qa" value="literals" />
+    <property role="TrG5h" value="JsonInputLiteral" />
+    <property role="34LRSv" value="JSON" />
+    <ref role="1TJDcQ" node="4VUDNa4S3qY" resolve="Literal" />
+    <node concept="1TJgyi" id="3NpMTjtUW2i" role="1TKVEl">
+      <property role="IQ2nx" value="4384759552460701842" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4uYCyPAzs4D">
+    <property role="EcuMT" value="5169747738145702185" />
+    <property role="3GE5qa" value="data.modifiers" />
+    <property role="TrG5h" value="IArrayDataModifer" />
+    <node concept="PrWs8" id="4uYCyPAzs4E" role="PrDN$">
+      <ref role="PrY4T" node="vjpA2TRNJ" resolve="IDataModifier" />
     </node>
   </node>
 </model>

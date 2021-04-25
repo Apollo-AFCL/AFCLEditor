@@ -333,6 +333,33 @@
         </node>
         <node concept="9aQIb" id="3d_E5CNJmRb" role="9aQIa">
           <node concept="3clFbS" id="3d_E5CNJmRc" role="9aQI4">
+            <node concept="3clFbJ" id="3NpMTju0dtd" role="3cqZAp">
+              <node concept="3clFbS" id="3NpMTju0dtf" role="3clFbx">
+                <node concept="2MkqsV" id="3NpMTju0ewY" role="3cqZAp">
+                  <node concept="Xl_RD" id="3NpMTju0exa" role="2MkJ7o">
+                    <property role="Xl_RC" value="Provide Datatype (write : behind variable name)" />
+                  </node>
+                  <node concept="1YBJjd" id="3NpMTju0exL" role="1urrMF">
+                    <ref role="1YBMHb" node="3d_E5CNJkEd" resolve="variable" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="3NpMTju0e5j" role="3clFbw">
+                <node concept="2OqwBi" id="3NpMTju0dEb" role="2Oq$k0">
+                  <node concept="1YBJjd" id="3NpMTju0dtI" role="2Oq$k0">
+                    <ref role="1YBMHb" node="3d_E5CNJkEd" resolve="variable" />
+                  </node>
+                  <node concept="3TrEf2" id="3NpMTju0dVk" role="2OqNvi">
+                    <ref role="3Tt5mk" to="u7e4:3d_E5CNrRRp" resolve="value" />
+                  </node>
+                </node>
+                <node concept="1mIQ4w" id="3NpMTju0ehi" role="2OqNvi">
+                  <node concept="chp4Y" id="3NpMTju0ejw" role="cj9EA">
+                    <ref role="cht4Q" to="u7e4:3NpMTjtTEx1" resolve="JsonInputLiteral" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="1Z5TYs" id="3d_E5CNJnya" role="3cqZAp">
               <node concept="mw_s8" id="3d_E5CNJnyu" role="1ZfhKB">
                 <node concept="1Z2H0r" id="3d_E5CNJnyq" role="mwGJk">
