@@ -289,6 +289,9 @@
           <module ref="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" kind="rt" />
           <module ref="31f56055-9d30-42b3-a2b1-fb3f554d7075(jetbrains.mps.lang.smodel.query.runtime)" kind="rt" />
           <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" kind="rt" />
+          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="cl" />
+          <module ref="8382542b-a045-4f73-951b-02d75ee252bf(Json)" kind="cl" />
+          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" kind="cl" />
           <module ref="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" kind="cl" />
           <module ref="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" kind="cl" />
         </dependencies>
@@ -360,6 +363,7 @@
           <module ref="d936855b-48da-4812-a8a0-2bfddd633ac5(jetbrains.mps.lang.behavior.api)" kind="rt" />
           <module ref="d936855b-48da-4812-a8a0-2bfddd633ac4(jetbrains.mps.lang.behavior.runtime)" kind="rt" />
           <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" kind="rt" />
+          <module ref="8382542b-a045-4f73-951b-02d75ee252bf(Json)" kind="cl" />
           <module ref="ec3060ee-1f23-4e47-af80-3618736238b3(afcl.language)" kind="cl" />
         </dependencies>
         <uses>
@@ -377,6 +381,7 @@
           <language id="l:13744753-c81f-424a-9c1b-cf8943bf4e86:jetbrains.mps.lang.sharedConcepts" />
           <language id="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" />
           <language id="l:c7fb639f-be78-4307-89b0-b5959c3fa8c8:jetbrains.mps.lang.text" />
+          <language id="l:7a5dda62-9140-4668-ab76-d5ed1746f2b2:jetbrains.mps.lang.typesystem" />
         </uses>
         <classpath>
           <entry path="." />
@@ -690,7 +695,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.afcl.language" depends="fetchDependencies">
+  <target name="java.compile.afcl.language" depends="java.compile.Json, fetchDependencies">
     <mkdir dir="${basedir}/languages/afcl.language/source_gen" />
     <mkdir dir="${build.tmp}/java/out/afcl.language" />
     <javac destdir="${build.tmp}/java/out/afcl.language" fork="true" encoding="utf8" includeantruntime="false" debug="true">
@@ -726,6 +731,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-textgen.jar" />
+        <pathelement path="${build.tmp}/java/out/Json" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
@@ -742,7 +748,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.afcl.language.generator" depends="java.compile.afcl.language, fetchDependencies">
+  <target name="java.compile.afcl.language.generator" depends="java.compile.Json, java.compile.afcl.language, fetchDependencies">
     <mkdir dir="${basedir}/languages/afcl.language/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/afcl.language.generator" />
     <javac destdir="${build.tmp}/java/out/afcl.language.generator" fork="true" encoding="utf8" includeantruntime="false" debug="true">
@@ -778,6 +784,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-textgen.jar" />
+        <pathelement path="${build.tmp}/java/out/Json" />
         <pathelement path="${build.tmp}/java/out/afcl.language" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
