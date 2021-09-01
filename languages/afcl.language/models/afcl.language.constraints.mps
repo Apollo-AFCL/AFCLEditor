@@ -410,7 +410,6 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="4pGU_dMwM57" role="3cqZAp" />
           <node concept="3clFbJ" id="5HmK96d$VgQ" role="3cqZAp">
             <node concept="3clFbS" id="5HmK96d$VgR" role="3clFbx">
               <node concept="3cpWs6" id="5HmK96d$VgS" role="3cqZAp">
@@ -1108,6 +1107,163 @@
                 <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
                 <node concept="Xl_RD" id="6ETOCmW29K8" role="37wK5m">
                   <property role="Xl_RC" value="(^(([0-9]+(,[0-9]+)*)?(:([0-9]+(,[0-9]+)*)?){0,2}))" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="4ngfxBaGvRz">
+    <property role="3GE5qa" value="statements" />
+    <ref role="1M2myG" to="u7e4:4ngfxBazIzv" resolve="WhileStatement" />
+  </node>
+  <node concept="1M2fIO" id="6LSO1HFieIk">
+    <property role="3GE5qa" value="references" />
+    <ref role="1M2myG" to="u7e4:6LSO1HFiefE" resolve="WhileResultReference" />
+    <node concept="1N5Pfh" id="6LSO1HFieIn" role="1Mr941">
+      <ref role="1N5Vy1" to="u7e4:6LSO1HFiefF" resolve="scope" />
+      <node concept="3dgokm" id="6LSO1HFieIo" role="1N6uqs">
+        <node concept="3clFbS" id="6LSO1HFieIp" role="2VODD2">
+          <node concept="3cpWs6" id="6LSO1HFmSIw" role="3cqZAp">
+            <node concept="2YIFZM" id="6LSO1HFmSIx" role="3cqZAk">
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <node concept="2OqwBi" id="6LSO1HFmSIy" role="37wK5m">
+                <node concept="2OqwBi" id="6LSO1HFmSIz" role="2Oq$k0">
+                  <node concept="2OqwBi" id="6LSO1HFmSI$" role="2Oq$k0">
+                    <node concept="2OqwBi" id="6LSO1HFmSI_" role="2Oq$k0">
+                      <node concept="2rP1CM" id="6LSO1HFmSIA" role="2Oq$k0" />
+                      <node concept="2Xjw5R" id="6LSO1HFmSIB" role="2OqNvi">
+                        <node concept="1xMEDy" id="6LSO1HFmSIC" role="1xVPHs">
+                          <node concept="chp4Y" id="6LSO1HFmT1c" role="ri$Ld">
+                            <ref role="cht4Q" to="u7e4:4ngfxBazIzv" resolve="WhileStatement" />
+                          </node>
+                        </node>
+                        <node concept="1xIGOp" id="6LSO1HFmSIE" role="1xVPHs" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="6LSO1HFmTqu" role="2OqNvi">
+                      <ref role="3Tt5mk" to="u7e4:4ngfxBazIMl" resolve="block" />
+                    </node>
+                  </node>
+                  <node concept="3Tsc0h" id="6LSO1HFmTDE" role="2OqNvi">
+                    <ref role="3TtcxE" to="u7e4:3d_E5CNuVF0" resolve="statements" />
+                  </node>
+                </node>
+                <node concept="v3k3i" id="6LSO1HFmSIH" role="2OqNvi">
+                  <node concept="chp4Y" id="6LSO1HFmSII" role="v3oSu">
+                    <ref role="cht4Q" to="u7e4:391VEBGMVmm" resolve="IDataScope" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="6LSO1HFieII" role="1Mr941">
+      <ref role="1N5Vy1" to="u7e4:6LSO1HFiefG" resolve="reference" />
+      <node concept="3dgokm" id="6LSO1HFieIJ" role="1N6uqs">
+        <node concept="3clFbS" id="6LSO1HFieIK" role="2VODD2">
+          <node concept="3cpWs8" id="6LSO1HFieIL" role="3cqZAp">
+            <node concept="3cpWsn" id="6LSO1HFieIM" role="3cpWs9">
+              <property role="TrG5h" value="scope" />
+              <node concept="3Tqbb2" id="6LSO1HFieIN" role="1tU5fm">
+                <ref role="ehGHo" to="u7e4:391VEBGMVmm" resolve="IDataScope" />
+              </node>
+              <node concept="2OqwBi" id="6LSO1HFl0nB" role="33vP2m">
+                <node concept="2OqwBi" id="6LSO1HFieIP" role="2Oq$k0">
+                  <node concept="2rP1CM" id="6LSO1HFieIQ" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="6LSO1HFieIR" role="2OqNvi">
+                    <node concept="1xMEDy" id="6LSO1HFieIS" role="1xVPHs">
+                      <node concept="chp4Y" id="6LSO1HFkFSL" role="ri$Ld">
+                        <ref role="cht4Q" to="u7e4:6LSO1HFiefE" resolve="WhileResultReference" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="6LSO1HFieIU" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="6LSO1HFl0DV" role="2OqNvi">
+                  <ref role="3Tt5mk" to="u7e4:6LSO1HFiefF" resolve="scope" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="6LSO1HFieIW" role="3cqZAp">
+            <node concept="3clFbS" id="6LSO1HFieIX" role="3clFbx">
+              <node concept="3cpWs6" id="6LSO1HFieIY" role="3cqZAp">
+                <node concept="2YIFZM" id="6LSO1HFieIZ" role="3cqZAk">
+                  <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+                  <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+                  <node concept="2OqwBi" id="6LSO1HFieJ0" role="37wK5m">
+                    <node concept="2qgKlT" id="6LSO1HFieJ1" role="2OqNvi">
+                      <ref role="37wK5l" to="xff8:391VEBGNgxp" resolve="getVariablesInScope" />
+                    </node>
+                    <node concept="37vLTw" id="6LSO1HFieJ2" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6LSO1HFieIM" resolve="scope" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="22lmx$" id="6LSO1HFieJ3" role="3clFbw">
+              <node concept="3fqX7Q" id="6LSO1HFieJ4" role="3uHU7B">
+                <node concept="2OqwBi" id="6LSO1HFieJ5" role="3fr31v">
+                  <node concept="37vLTw" id="6LSO1HFieJ6" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6LSO1HFieIM" resolve="scope" />
+                  </node>
+                  <node concept="1mIQ4w" id="6LSO1HFieJ7" role="2OqNvi">
+                    <node concept="chp4Y" id="6LSO1HFieJ8" role="cj9EA">
+                      <ref role="cht4Q" to="u7e4:1mRlCE7N7zM" resolve="ForEachStatement" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3fqX7Q" id="6LSO1HFieJ9" role="3uHU7w">
+                <node concept="2OqwBi" id="6LSO1HFieJa" role="3fr31v">
+                  <node concept="2OqwBi" id="6LSO1HFieJb" role="2Oq$k0">
+                    <node concept="2rP1CM" id="6LSO1HFieJc" role="2Oq$k0" />
+                    <node concept="z$bX8" id="6LSO1HFieJd" role="2OqNvi" />
+                  </node>
+                  <node concept="3JPx81" id="6LSO1HFieJe" role="2OqNvi">
+                    <node concept="37vLTw" id="6LSO1HFieJf" role="25WWJ7">
+                      <ref role="3cqZAo" node="6LSO1HFieIM" resolve="scope" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="6LSO1HFieJg" role="3cqZAp" />
+          <node concept="3cpWs8" id="6LSO1HFieJh" role="3cqZAp">
+            <node concept="3cpWsn" id="6LSO1HFieJi" role="3cpWs9">
+              <property role="TrG5h" value="forElement" />
+              <node concept="3Tqbb2" id="6LSO1HFieJj" role="1tU5fm">
+                <ref role="ehGHo" to="u7e4:1mRlCE7N7zM" resolve="ForEachStatement" />
+              </node>
+              <node concept="10QFUN" id="6LSO1HFieJk" role="33vP2m">
+                <node concept="3Tqbb2" id="6LSO1HFieJl" role="10QFUM">
+                  <ref role="ehGHo" to="u7e4:1mRlCE7N7zM" resolve="ForEachStatement" />
+                </node>
+                <node concept="37vLTw" id="6LSO1HFieJm" role="10QFUP">
+                  <ref role="3cqZAo" node="6LSO1HFieIM" resolve="scope" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="6LSO1HFieJo" role="3cqZAp" />
+          <node concept="3cpWs6" id="6LSO1HFieJp" role="3cqZAp">
+            <node concept="2YIFZM" id="6LSO1HFieJq" role="3cqZAk">
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <node concept="2OqwBi" id="6LSO1HFieJr" role="37wK5m">
+                <node concept="37vLTw" id="6LSO1HFieJs" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6LSO1HFieJi" resolve="forElement" />
+                </node>
+                <node concept="2qgKlT" id="6LSO1HFieJt" role="2OqNvi">
+                  <ref role="37wK5l" to="xff8:5HmK96dxL4c" resolve="getInputVariablesInScope" />
                 </node>
               </node>
             </node>
