@@ -18,6 +18,10 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
+        <child id="1068498886297" name="rValue" index="37vLTx" />
+        <child id="1068498886295" name="lValue" index="37vLTJ" />
+      </concept>
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="8118189177080264853" name="jetbrains.mps.baseLanguage.structure.AlternativeType" flags="ig" index="nSUau">
@@ -64,6 +68,7 @@
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
+      <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
@@ -646,14 +651,67 @@
                 </node>
               </node>
             </node>
+            <node concept="3cpWs8" id="1jkA7pyvYBm" role="3cqZAp">
+              <node concept="3cpWsn" id="1jkA7pyvYBn" role="3cpWs9">
+                <property role="TrG5h" value="outputString" />
+                <node concept="3uibUv" id="1jkA7pyvYBo" role="1tU5fm">
+                  <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+                </node>
+                <node concept="2OqwBi" id="1jkA7pyvZjJ" role="33vP2m">
+                  <node concept="37vLTw" id="1jkA7pyvYXb" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4CcqqpgGpNN" resolve="stringWriter" />
+                  </node>
+                  <node concept="liA8E" id="1jkA7pyvZCL" role="2OqNvi">
+                    <ref role="37wK5l" to="guwi:~StringWriter.toString()" resolve="toString" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1jkA7pyw0Ag" role="3cqZAp">
+              <node concept="37vLTI" id="1jkA7pyw0Ge" role="3clFbG">
+                <node concept="2OqwBi" id="1jkA7pyw13v" role="37vLTx">
+                  <node concept="37vLTw" id="1jkA7pyw0MB" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1jkA7pyvYBn" resolve="outputString" />
+                  </node>
+                  <node concept="liA8E" id="1jkA7pyw1qO" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
+                    <node concept="Xl_RD" id="1jkA7pywcE9" role="37wK5m">
+                      <property role="Xl_RC" value="\&quot;&lt;convertToArray&gt;([^&lt;]*)&lt;/convertToArray&gt;\&quot;" />
+                    </node>
+                    <node concept="Xl_RD" id="1jkA7pywcIL" role="37wK5m">
+                      <property role="Xl_RC" value="$1" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="1jkA7pyw0Ae" role="37vLTJ">
+                  <ref role="3cqZAo" node="1jkA7pyvYBn" resolve="outputString" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1jkA7pyRGJ9" role="3cqZAp">
+              <node concept="37vLTI" id="1jkA7pyRH4L" role="3clFbG">
+                <node concept="2OqwBi" id="1jkA7pyRHsA" role="37vLTx">
+                  <node concept="37vLTw" id="1jkA7pyRHbs" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1jkA7pyvYBn" resolve="outputString" />
+                  </node>
+                  <node concept="liA8E" id="1jkA7pyRHOd" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
+                    <node concept="Xl_RD" id="1jkA7pyRHR3" role="37wK5m">
+                      <property role="Xl_RC" value="\\\\\&quot;" />
+                    </node>
+                    <node concept="Xl_RD" id="1jkA7pyRIgv" role="37wK5m">
+                      <property role="Xl_RC" value="\&quot;" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="1jkA7pyRGJ7" role="37vLTJ">
+                  <ref role="3cqZAo" node="1jkA7pyvYBn" resolve="outputString" />
+                </node>
+              </node>
+            </node>
             <node concept="3cpWs6" id="4CcqqpgCXuN" role="3cqZAp">
-              <node concept="2OqwBi" id="4CcqqpgGtpY" role="3cqZAk">
-                <node concept="37vLTw" id="4CcqqpgGsAj" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4CcqqpgGpNN" resolve="stringWriter" />
-                </node>
-                <node concept="liA8E" id="4CcqqpgGurA" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~StringWriter.toString()" resolve="toString" />
-                </node>
+              <node concept="37vLTw" id="1jkA7pyw1VH" role="3cqZAk">
+                <ref role="3cqZAo" node="1jkA7pyvYBn" resolve="outputString" />
               </node>
             </node>
           </node>
@@ -977,7 +1035,7 @@
                 <ref role="37wK5l" to="lhlt:~TextNode.valueOf(java.lang.String)" resolve="valueOf" />
                 <ref role="1Pybhc" to="lhlt:~TextNode" resolve="TextNode" />
                 <node concept="2OqwBi" id="4CcqqpgG1pD" role="37wK5m">
-                  <node concept="Jnkvi" id="4CcqqpgG0Fo" role="2Oq$k0">
+                  <node concept="Jnkvi" id="1jkA7pyvX$q" role="2Oq$k0">
                     <ref role="1M0zk5" node="4CcqqpgFRgC" resolve="jsonString" />
                   </node>
                   <node concept="3TrcHB" id="4CcqqpgG2p$" role="2OqNvi">

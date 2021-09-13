@@ -749,5 +749,87 @@
       <ref role="PrY4T" node="vjpA2TRNJ" resolve="IDataModifier" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4ngfxBazIzv">
+    <property role="EcuMT" value="5030589064266311903" />
+    <property role="3GE5qa" value="statements" />
+    <property role="TrG5h" value="WhileStatement" />
+    <property role="34LRSv" value="while" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4ngfxBazIzU" role="PzmwI">
+      <ref role="PrY4T" node="4N_EDd1OSXh" resolve="IStatement" />
+    </node>
+    <node concept="PrWs8" id="4ngfxBazIzZ" role="PzmwI">
+      <ref role="PrY4T" node="391VEBGMVmm" resolve="IDataScope" />
+    </node>
+    <node concept="PrWs8" id="4ngfxBazI$7" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="4ngfxBazIMj" role="1TKVEi">
+      <property role="IQ2ns" value="5030589064266312851" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="input" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="vjpA2T99W" resolve="LoopInputBlock" />
+    </node>
+    <node concept="1TJgyj" id="4ngfxBazIMl" role="1TKVEi">
+      <property role="IQ2ns" value="5030589064266312853" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="block" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6mfJfqQzymp" resolve="BodyBlock" />
+    </node>
+    <node concept="1TJgyj" id="4ngfxBaBCbp" role="1TKVEi">
+      <property role="IQ2ns" value="5030589064267334361" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="condition" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3d_E5CNnHe1" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="6LSO1HGc8UE" role="1TKVEi">
+      <property role="IQ2ns" value="7816225969499311786" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="counter" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3d_E5CNrRQR" resolve="DataOutput" />
+    </node>
+    <node concept="1TJgyj" id="4ngfxBazIMo" role="1TKVEi">
+      <property role="IQ2ns" value="5030589064266312856" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="output" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6LSO1HFih2J" resolve="WhileOutputBlock" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6LSO1HFiefE">
+    <property role="EcuMT" value="7816225969484129258" />
+    <property role="3GE5qa" value="references" />
+    <property role="TrG5h" value="WhileResultReference" />
+    <ref role="1TJDcQ" node="3d_E5CNrRQS" resolve="Data" />
+    <node concept="1TJgyj" id="6LSO1HFiefF" role="1TKVEi">
+      <property role="IQ2ns" value="7816225969484129259" />
+      <property role="20kJfa" value="scope" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="391VEBGMVmm" resolve="IDataScope" />
+    </node>
+    <node concept="1TJgyj" id="6LSO1HFiefG" role="1TKVEi">
+      <property role="IQ2ns" value="7816225969484129260" />
+      <property role="20kJfa" value="reference" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3d_E5CNrRQS" resolve="Data" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6LSO1HFih2J">
+    <property role="EcuMT" value="7816225969484140719" />
+    <property role="3GE5qa" value="blocks" />
+    <property role="TrG5h" value="WhileOutputBlock" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6LSO1HFih2K" role="1TKVEi">
+      <property role="IQ2ns" value="7816225969484140720" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="outputs" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6LSO1HFiefE" resolve="WhileResultReference" />
+    </node>
+  </node>
 </model>
 
