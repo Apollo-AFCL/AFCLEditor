@@ -2145,5 +2145,131 @@
       </node>
     </node>
   </node>
+  <node concept="1YbPZF" id="6UFYaEMgT1O">
+    <property role="TrG5h" value="typeof_SplitModifier" />
+    <property role="3GE5qa" value="data.modifiers" />
+    <node concept="3clFbS" id="6UFYaEMgT1P" role="18ibNy">
+      <node concept="1ZobV4" id="6UFYaEMgT1V" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="6UFYaEMgT1W" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6UFYaEMgT1X" role="mwGJk">
+            <node concept="2OqwBi" id="6UFYaEMgTi9" role="1Z2MuG">
+              <node concept="1YBJjd" id="6UFYaEMgT5Q" role="2Oq$k0">
+                <ref role="1YBMHb" node="6UFYaEMgT1R" resolve="splitModifier" />
+              </node>
+              <node concept="3TrEf2" id="6UFYaEMgTGR" role="2OqNvi">
+                <ref role="3Tt5mk" to="u7e4:vjpA3jZWf" resolve="value" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6UFYaEMgT21" role="1ZfhKB">
+          <node concept="2ShNRf" id="6UFYaEMgT22" role="mwGJk">
+            <node concept="3zrR0B" id="6UFYaEMgT23" role="2ShVmc">
+              <node concept="3Tqbb2" id="6UFYaEMgT24" role="3zrR0E">
+                <ref role="ehGHo" to="u7e4:3d_E5CNnHed" resolve="NumberType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6UFYaEMgT1R" role="1YuTPh">
+      <property role="TrG5h" value="splitModifier" />
+      <ref role="1YaFvo" to="u7e4:vjpA34fFL" resolve="SplitModifier" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="6UFYaEMjfa0">
+    <property role="TrG5h" value="typeof_ReplicateTimesModifier" />
+    <property role="3GE5qa" value="data.modifiers" />
+    <node concept="3clFbS" id="6UFYaEMjfa1" role="18ibNy">
+      <node concept="1ZobV4" id="6UFYaEMjfa7" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="6UFYaEMjfa8" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6UFYaEMjfa9" role="mwGJk">
+            <node concept="2OqwBi" id="6UFYaEMjfaa" role="1Z2MuG">
+              <node concept="1YBJjd" id="6UFYaEMjfdF" role="2Oq$k0">
+                <ref role="1YBMHb" node="6UFYaEMjfa3" resolve="replicateTimesModifier" />
+              </node>
+              <node concept="3TrEf2" id="6UFYaEMjfri" role="2OqNvi">
+                <ref role="3Tt5mk" to="u7e4:vjpA3oWOA" resolve="value" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6UFYaEMjfad" role="1ZfhKB">
+          <node concept="2ShNRf" id="6UFYaEMjfae" role="mwGJk">
+            <node concept="3zrR0B" id="6UFYaEMjfaf" role="2ShVmc">
+              <node concept="3Tqbb2" id="6UFYaEMjfag" role="3zrR0E">
+                <ref role="ehGHo" to="u7e4:3d_E5CNnHed" resolve="NumberType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6UFYaEMjfa3" role="1YuTPh">
+      <property role="TrG5h" value="replicateTimesModifier" />
+      <ref role="1YaFvo" to="u7e4:vjpA3oWOz" resolve="ReplicateModifier" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="6Y4z335ilM_">
+    <property role="TrG5h" value="typeof_BlockModifier" />
+    <property role="3GE5qa" value="data.modifiers" />
+    <node concept="3clFbS" id="6Y4z335ilMA" role="18ibNy">
+      <node concept="1ZobV4" id="6Y4z335ilMG" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="6Y4z335ilMH" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6Y4z335ilMI" role="mwGJk">
+            <node concept="2OqwBi" id="6Y4z335ilMJ" role="1Z2MuG">
+              <node concept="1YBJjd" id="6Y4z335ilQO" role="2Oq$k0">
+                <ref role="1YBMHb" node="6Y4z335ilMC" resolve="blockModifier" />
+              </node>
+              <node concept="3TrEf2" id="6Y4z335imaP" role="2OqNvi">
+                <ref role="3Tt5mk" to="u7e4:vjpA3tS50" resolve="size" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6Y4z335ilMM" role="1ZfhKB">
+          <node concept="2ShNRf" id="6Y4z335ilMN" role="mwGJk">
+            <node concept="3zrR0B" id="6Y4z335ilMO" role="2ShVmc">
+              <node concept="3Tqbb2" id="6Y4z335ilMP" role="3zrR0E">
+                <ref role="ehGHo" to="u7e4:3d_E5CNnHed" resolve="NumberType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1ZobV4" id="6Y4z335imbk" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="6Y4z335imbl" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6Y4z335imbm" role="mwGJk">
+            <node concept="2OqwBi" id="6Y4z335imbn" role="1Z2MuG">
+              <node concept="1YBJjd" id="6Y4z335imbo" role="2Oq$k0">
+                <ref role="1YBMHb" node="6Y4z335ilMC" resolve="blockModifier" />
+              </node>
+              <node concept="3TrEf2" id="6Y4z335ime$" role="2OqNvi">
+                <ref role="3Tt5mk" to="u7e4:vjpA3tS52" resolve="overlap" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6Y4z335imbq" role="1ZfhKB">
+          <node concept="2ShNRf" id="6Y4z335imbr" role="mwGJk">
+            <node concept="3zrR0B" id="6Y4z335imbs" role="2ShVmc">
+              <node concept="3Tqbb2" id="6Y4z335imbt" role="3zrR0E">
+                <ref role="ehGHo" to="u7e4:3d_E5CNnHed" resolve="NumberType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6Y4z335ilMC" role="1YuTPh">
+      <property role="TrG5h" value="blockModifier" />
+      <ref role="1YaFvo" to="u7e4:vjpA34fFK" resolve="BlockModifier" />
+    </node>
+  </node>
 </model>
 
