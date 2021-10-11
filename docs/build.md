@@ -7,7 +7,7 @@ For a working build process it is necessary to download the [generic distributio
 
 ## Generation of new build script
 
-By changing dependencies within the MPS project it can sometimes happen, that the regeneration of the build script, which is a script for generating a standalone editor, is necessary. Normally this can be skipped and you can proceed with the [following section](#building-without-generation-of-new-build-script).
+By changing dependencies within the MPS project it can sometimes happen, that the regeneration of the build script, which is a script for generating a standalone editor, is necessary. Normally this can be skipped and you can proceed with the [following section](#building-the-standalone-afcl-editor).
 
 ### Build Solution Wizard
 
@@ -26,18 +26,17 @@ Since our language relies on the package **grammarcells** and some other package
 
 ![alt text](media/import_model.png "Import Model")
 
-After that you are able to add all necessary dependencies to the dependencies section of the build script as shown below. It has to be noted that a simple copy paste approach doesn't work within the build script and thus you need to make those changes by hand.
+Add the necessary dependencies to the build script as shown below. It has to be noted that a simple copy paste approach doesn't work within the build script and thus you need to make those changes by hand.
 
 ![alt text](media/dependencies.png "Dependencies")
 
-You additionally also need to add the following entries to the plugins section:
+The plugin section within the buildscript has to be extended as shown below:
 
 ![alt text](media/plugins.png "Plugins")
 
-
 After reloading the modules from the disk with **Alt/Options + Enter** the IDE should build.
 
-## Building without generation of new build script
+## Building the standalone AFCL editor
 
 After fixing the global settings we can finally start the build process:
 
