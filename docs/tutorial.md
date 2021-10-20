@@ -1,6 +1,6 @@
 # Tutorial
 
-You can download the standalone IDE for Linux, macOS and Windows from [here](https://to-replace.com).
+You can download the standalone IDE for Linux, macOS and Windows from [here](https://github.com/Apollo-AFCL/AFCLEditor/releases).
 
 ## Create a new AFCL project
 
