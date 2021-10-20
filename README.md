@@ -1,6 +1,6 @@
 # AFCL Editor
 
-This repository contains the implementation of the IDE for the AFCL DSL made with [JetBrains MPS](https://www.jetbrains.com/mps/). It allows an easy implementation of workflows, which can be exported to the original [yaml based representation](https://apollowf.github.io/learn.html) for the [Apollo Platform](https://github.com/Apollo-Workflows).
+This repository contains the implementation of the IDE for the AFCL DSL made with [JetBrains MPS](https://www.jetbrains.com/mps/). It allows an easy implementation of workflows, which can be exported to the original [yaml based representation](https://apollowf.github.io/learn.html) for the [Apollo Runtime System](https://github.com/Apollo-Core).
 
 ## Open Project in MPS:
 
