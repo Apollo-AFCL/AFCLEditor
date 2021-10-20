@@ -35,8 +35,7 @@ An overview about the project structure is presented [here](docs/project_structu
     - [x] Number 
     - [x] Array
 - Compound functions:
-    - [x] If-then-else block
-    - [x] For block
+    - [x] If-then-else block    
     - [x] While block
     - [x] ParallelFor block
 - [x] Properties and Constraints
