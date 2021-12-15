@@ -4,7 +4,7 @@ This tutorial describes how you can use the standalone version of the AFCL edito
 
 ## Setting up and launching the editor
 
-1. You can download the standalone IDE for Linux, macOS and Windows from [here](https://to-replace.com).
+1. You can download the standalone IDE for Linux, macOS and Windows from [here](https://github.com/Apollo-AFCL/AFCLEditor/releases/tag/V1.0.0).
 2. Unzip the downloaded file to a directory.
 3. Open the editor directory and navigate to the `./bin` folder.
 4. Run the command `./afcleditor.sh` to launch the editor.
